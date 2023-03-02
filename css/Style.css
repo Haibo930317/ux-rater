@@ -1,0 +1,103 @@
+body {
+  font-family: 'Domine', Arial;
+}
+
+header {
+  display: flex;
+  position:sticky;
+  top: 0px;
+  width: 100vw;
+  height: 168px;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 0px 128px;
+}
+
+.triangle-group {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  display: none;
+}
+
+.circle-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.hero-content {
+  display: flex;
+  align-items: start;
+}
+
+
+.hero-text {
+  margin: 0;
+}
+
+.hero-image {
+  position: relative;
+  width: 612px;
+  height: 608px;
+  float: right;
+}
+
+P {
+    color: #E09338;
+    text-align: left;
+    font-size: 24px;
+    font-style:normal;
+    position: sticky;
+  } 
+
+body {
+  background-color: #FFFFFF;
+}
+
+.inline-block {
+  display: inline-block;
+  width: auto;
+  height: 168px;
+  vertical-align: top;
+}
+
+.CBSA{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:418px;
+  height:676px;
+  z-index: 100;
+  float: right;
+}
+.Ellipse{
+
+  width:50px;
+  height:50px;
+}
+
+.Ellipse{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 575px;
+  height:575px;
+  float: right;
+}
