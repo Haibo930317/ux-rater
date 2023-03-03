@@ -126,15 +126,16 @@ div.jumbotron {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
+  padding: 0 0;
+  width: 12rem;
   height: 3rem;
-  background-size: 300% 300%;
-  backdrop-filter: blur(1rem);
+  /*background-size: 300% 300%;*/
+  /*backdrop-filter: blur(1rem);*/
   border-radius: 5rem;
   transition: 0.5s;
-  animation: gradient_301 5s ease infinite;
+  /*animation: gradient_301 5s ease infinite;*/
   border: double 4px transparent;
-  background-image: linear-gradient(#212121, #212121),  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%);
+  background-image: linear-gradient(#212121, #212121),  linear-gradient(165.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 
@@ -183,16 +184,16 @@ strong {
   background: rgba(142, 81, 234, 0.704);
 }
 
-.btn:hover #container-stars {
+.btn-stars:hover #container-stars {
   z-index: 1;
   background-color: #212121;
 }
 
-.btn:hover {
+.btn-stars:hover {
   transform: scale(1.1)
 }
 
-.btn:active {
+.btn-stars:active {
   border: double 4px #FE53BB;
   background-origin: border-box;
   background-clip: content-box, border-box;
