@@ -55,20 +55,37 @@ body {
 
 div.jumbotron {
   padding: 0;
-}
-.hero-image {
-  position: relative;
-  object-fit: contain;
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+.hero-image {
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  
+}
+
+.hero-content {
+  position:absolute;
+  margin-top: -4rem;
+}
 
 .hero-text {
   position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
   margin-top: -5rem;
+  color: azure;
+}
+
+.hero-text > strong {
+  font-family: "Roboto", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color:#ee9f54
 }
 
 .btn-primary {
