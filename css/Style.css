@@ -10,9 +10,44 @@ body {
   max-width: 710px;
   margin: 0;
 }
+
+.logo {
+  padding-top: 1.5rem;
+  margin-left: -2rem;
+}
 .navbar-nav > li {
     text-align: center;
+    
 }
+
+.nav-link {
+  color: white;
+  opacity: 1;
+}
+
+.nav-link:hover {
+  color:white;
+  opacity: 0.7;
+}
+
+div.jumbotron {
+  padding: 0;
+}
+.hero-image {
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  margin-top: -5rem;
+}
+
 .btn-primary {
   color: #000;
   border-color: none;
