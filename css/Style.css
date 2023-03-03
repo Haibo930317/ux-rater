@@ -13,4 +13,30 @@ body {
 .navbar-nav > li {
     text-align: center;
 }
+.btn-primary {
+  color: #000;
+  border-color: none;
+  background: linear-gradient(180deg, #A27EEF 0%, #F09038 100%);
+  border-radius: 35px;
+  border: 2px solid transparent;
+  padding: 4px 20px;
+  opacity: 1;
+  transition: all 0.4s;
+}
 
+
+.btn-primary:hover {
+  color: black;
+  border-color: none;
+  background: linear-gradient(180deg, #A27EEF 0%, #F09038 100%);
+ opacity:0.7;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #212529;
+  border-color: #d3d8de;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
