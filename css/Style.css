@@ -13,6 +13,11 @@ body {
 .navbar-nav > li {
     text-align: center;
 }
+a{
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
 .btn-primary {
   color: #000;
   border-color: none;
