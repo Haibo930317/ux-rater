@@ -50,6 +50,18 @@ body {
   box-shadow: none;
 }
 
+.btn-primary {
+  color: #000;
+  border-color: none;
+  background: linear-gradient(180deg, #A27EEF 0%, #F09038 100%);
+  border-radius: 35px;
+  /*border: 2px solid transparent;*/
+  padding: 4px 20px;
+  opacity: 1;
+  transition: all 0.4s;
+}
+
+
 
 /* Hero-jumbotron */
 
@@ -69,7 +81,9 @@ div.jumbotron {
 
 .hero-content {
   position:absolute;
-  margin-top: -4rem;
+  margin-top: -20rem;
+  margin-left: 100px;
+
 }
 
 .hero-text {
@@ -88,15 +102,19 @@ div.jumbotron {
   color:#ee9f54
 }
 
-.btn-primary {
-  color: #000;
-  border-color: none;
-  background: linear-gradient(180deg, #A27EEF 0%, #F09038 100%);
+.hero-statement {
+  padding-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight:500;
+  color: azure;
+}
+
+.hero-button {
+  margin-top: 1rem;
+  padding: 12px 30px;
+  background: linear-gradient(180deg, #77D5F2 0%, #A27EEF 100%);
   border-radius: 35px;
-  border: 2px solid transparent;
-  padding: 4px 20px;
-  opacity: 1;
-  transition: all 0.4s;
 }
 
 
