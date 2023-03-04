@@ -256,6 +256,15 @@ strong {
 }
 /* Footer section */
 
+footer{
+  background-image:url(../Image/Footer-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
 h4 {
   font-size: 1rem;
   color: white:;
