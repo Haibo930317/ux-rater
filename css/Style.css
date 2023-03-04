@@ -254,6 +254,55 @@ strong {
   width: 200rem;
   height: 200rem;
 }
+/* Footer section */
+
+h4 {
+  font-size: 1rem;
+  color: white:;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: small;
+}
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin: auto;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border: 1px solid #92551D;
+}
 
 
   
