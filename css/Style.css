@@ -169,9 +169,10 @@ div.jumbotron {
 
 /* Section main-content */
 .content1 {
-  margin-left: 95px;
 
-}
+  max-width: 1260px;
+  margin: 0 auto;
+  }
 
 .content1-cta {
  float: left;
@@ -213,12 +214,12 @@ div.jumbotron {
 
 /****/
 
-.content2 {
-  height: 500px;
-  margin-left: 100px;
-  margin-right: 100px;
+content2 {
+
   padding-top: 3.5rem;
-}
+  max-width: 1260px;
+  margin: 0 auto;
+}  
 
 .content2-cta {
   float: right;
@@ -277,12 +278,11 @@ img.circle {
 /****/
 
 .content3 {
-  height: 500px;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-top: 3.5rem;
-  margin-bottom: 3.5rem;
-
+   padding-top: 3.5rem;
+   margin-bottom: 3.5rem;
+   max-width: 1260px;
+   margin: 0 auto;
+   padding-bottom: 4.5rem;
 }
 
 .content3-cta {
@@ -399,10 +399,11 @@ strong {
 /* Footer section */
 
 section.footer-wrapper {
-  display: flex;
-  justify-content: space-around;
-  gap: 40px;
-  margin: auto;
+display: flex;
+justify-content: space-between;
+margin: auto;
+max-width: 1260px;
+border-bottom: 1px solid #92551D;
 }
 
 
@@ -421,9 +422,10 @@ h4 {
   color: white;
 }
 
-ul{
+ul {
   list-style-type: none;
-}
+  padding: 0;
+  }
 
 a {
   color: white;
